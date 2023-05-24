@@ -1,0 +1,51 @@
+.edit-section-one {
+    position: relative;
+    top: 9rem;
+
+}
+
+.edit-h1-setion-one {
+    color: #F4F5FA !important;
+    font-size: 2.6rem;
+    font-weight: bolder;
+}
+
+.edit-p-section-one {
+    color: #F4F5FA !important;
+}
+
+.line-1 {
+
+    border-right: 5px solid white;
+
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    color: #c81616;
+}
+
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 15s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
