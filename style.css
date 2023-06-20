@@ -1,10 +1,12 @@
 body {
     overflow-y: scroll;
-
-
 }
 
-#img-right {
+header {
+    background-color: #111111;
+}
+
+/* #img-right {
 
     width: auto;
     height: 500px;
@@ -15,7 +17,7 @@ body {
 
 
 
-}
+} */
 
 .edit-section-one {
     position: relative;
@@ -75,7 +77,15 @@ body {
 }
 
 #first-section {
-    height: 45rem;
+    height: 37.1rem;
+    background-color: #111111;
+    
+
+}
+
+/* second section */
+#second-section {
+    background-color: white;
 }
 
 /* card design */
@@ -190,10 +200,11 @@ body {
     justify-content: space-between;
     gap: 1rem;
     list-style: none;
+    padding: 0;
+    margin: 2rem auto 2rem auto;
 }
 
 .cards-sideLeft {
-    color: #fff;
 }
 
 .cards-sideLeft h1{
@@ -204,4 +215,5 @@ body {
     font-size: 1.2rem;
     line-height: 2rem;
     margin-top: 1rem;
+    width: 88%;
 }
