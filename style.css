@@ -8,7 +8,6 @@ header {
 
 /* #img-right {
 
-    width: auto;
     height: 500px;
     width: 44rem;
     position: absolute;
@@ -22,18 +21,20 @@ header {
 .edit-section-one {
     position: relative;
     top: 9rem;
+    margin: 0 auto;
 
 }
 
 .edit-h1-setion-one {
     color: #fff !important;
-    font-size: 2.6rem;
+    font-size: 4rem;
     font-weight: bolder;
     margin-bottom: 1.5rem;
 }
 
 .edit-p-section-one {
     color: #fff !important;
+    font-size: 1.5rem;
 }
 
 .line-1 {
@@ -74,10 +75,23 @@ header {
 
 #edit-button-section-one {
     border-radius: 3px;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    transition: transform .5s;
 }
 
+/* #edit-button-section-one span:hover{
+    display: none;
+}
+
+#edit-button-section-one:hover::after {
+    content: "!"
+  } */
+
+
 #first-section {
-    height: 42rem;
+    height: 38.1rem;
     background-color: #111111;
 
 
