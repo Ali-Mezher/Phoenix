@@ -42,3 +42,10 @@ var wordflick = function () {
 $(document).ready(function () {
     wordflick();
 });
+
+document.getElementById("edit-button-section-one").addEventListener("mouseenter", function() {
+    document.getElementById("edit-button-section-one").innerHTML = '<img src="/images/arrow.png" alt="">';
+});
+document.getElementById("edit-button-section-one").addEventListener("mouseleave", function() {
+    document.getElementById("edit-button-section-one").innerHTML = '<span>Our Services</span>';
+});

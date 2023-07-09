@@ -20,7 +20,7 @@ header {
 
 .edit-section-one {
     position: relative;
-    top: 9rem;
+    top: 8rem;
     margin: 0 auto;
 
 }
@@ -36,6 +36,8 @@ header {
     color: #fff !important;
     font-size: 1.5rem;
 }
+
+
 
 .line-1 {
 
@@ -74,20 +76,36 @@ header {
 }
 
 #edit-button-section-one {
-    border-radius: 3px;
+    border-radius: 25px;
+    position: relative;
     width: 15rem;
     height: 3rem;
     font-size: 1.5rem;
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
-
-/* #edit-button-section-one span:hover{
-    display: none;
+#edit-button-section-one span {
+   
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s;
 }
-
+#edit-button-section-one:hover {
+    transform: scale(1.1);
+}
+#edit-button-section-one:hover span {
+    opacity: 0;
+}
+#edit-button-section-one::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
 #edit-button-section-one:hover::after {
-    content: "!"
-  } */
+    opacity: 1;
+}
 
 
 #first-section {
