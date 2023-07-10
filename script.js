@@ -44,7 +44,7 @@ $(document).ready(function () {
 });
 
 document.getElementById("edit-button-section-one").addEventListener("mouseenter", function() {
-    document.getElementById("edit-button-section-one").innerHTML = '<img src="/images/arrow.png" alt="">';
+    document.getElementById("edit-button-section-one").innerHTML = '<img class="arrow-img" src="/images/arrow.png" alt="">';
 });
 document.getElementById("edit-button-section-one").addEventListener("mouseleave", function() {
     document.getElementById("edit-button-section-one").innerHTML = '<span>Our Services</span>';
