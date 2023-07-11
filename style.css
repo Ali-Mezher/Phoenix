@@ -82,7 +82,7 @@ header {
     height: 3rem;
     font-size: 1.5rem;
     white-space: nowrap;
-    transition: width 1s cubic-bezier(0.4, 0, 0.2, 1) ;
+    transition: width 0.7s cubic-bezier(0.4, 0, 0.2, 1) ;
   }
   
   #edit-button-section-one .button-text {
@@ -117,7 +117,7 @@ header {
   
   #edit-button-section-one .button-text:not(:hover) {
     opacity: 1;
-    transition: font-size 1s;
+    transition: font-size 0.7s;
 
   }
   
