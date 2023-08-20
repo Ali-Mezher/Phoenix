@@ -42,7 +42,8 @@ header {
 .line-1 {
 
     border-right: 5px solid white;
-
+    position: relative;
+    z-index: 1;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
@@ -144,200 +145,150 @@ header {
 /* second section */
 #second-section {
     background-color: white;
+    margin-top: 2rem;
 }
 
-.grid {
-  display: grid;
+#second-section .container {
+    display: flex;
+    flex-direction: row;
+}
+.pricing-table {
+	background: #f5f5f5;
+	box-shadow: 0px 1px 10px -6px rgba(0, 0, 0, .15);
+	padding: 2rem;
+	border-radius: 4px;
+	transition: .3s;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  
 }
 
-/*==================== CARD PRICING ====================*/
-.card {
-  padding: 3rem 0;
+.pricing-table:hover {
+	box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, .15);
 }
 
-.card__container {
-  gap: 3rem 1.25rem;
+.pricing-table .pricing-label {
+	border-radius: 2px;
+	padding: .25rem .5rem;
+	margin-bottom: 1rem;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 500;
 }
 
-.card__content {
-  position: relative;
-  background-color: var(--container-color);
-  padding: 2rem 1.5rem 2.5rem;
-  border-radius: 1.75rem;
-  box-shadow: 0 12px 24px hsla(var(--hue-color), 61%, 16%, 0.1);
-  transition: .4s;
+.pricing-table h2 {
+	color: #3b3b3b;
+	font-size: 24px;
+	font-weight: 500;
 }
 
-.card__content:hover {
-  box-shadow: 0 16px 24px hsla(var(--hue-color), 61%, 16%, 0.15);
+.pricing-table h5 {
+	color: #B3B3B3;
+	font-size: 14px;
+	font-weight: 400;
 }
 
-.card__header-img {
-  width: 30px;
-  height: 30px;
+.pricing-table .pricing-features {
+	margin-top: 2rem;
 }
 
-.card__header-circle {
-  width: 40px;
-  height: 40px;
-  background-color: var(--first-color-lighter);
-  border-radius: 50%;
-  margin-bottom: var(--mb-1);
-  place-items: center;
+.pricing-table .pricing-features .feature {
+	font-size: 14px;
+	margin: .5rem 0;
+	color: #B3B3B3;
 }
 
-.card__header-subtitle {
-  display: block;
-  font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
-  text-transform: uppercase;
-  margin-bottom: var(--mb-0-25);
+.pricing-table .pricing-features .feature span {
+	display: inline-block;
+	float: right;
+	color: #3b3b3b;
+	font-weight: 500;
 }
 
-.card__header-title {
-  font-size: var(--biggest-font-size);
-  color: var(--title-color);
-  margin-bottom: var(--mb-1);
+.pricing-table 	.price-tag {
+	margin-top: 2rem;
+	text-align: center;
+	font-weight: 500;
 }
 
-.card__pricing {
-  position: absolute;
-  background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%);
-  width: 60px;
-  height: 88px;
-  right: 1.5rem;
-  top: -1rem;
-  padding-top: 1.25rem;
-  text-align: center;
+.pricing-table .price-tag .symbol {
+	font-size: 24px;
 }
 
-.card__pricing-number {
-  font-family: var(--pricing-font);
+.pricing-table .price-tag .amount {
+	letter-spacing: -2px;
+	font-size: 64px;
 }
 
-.card__pricing-symbol {
-  font-size: var(--smaller-font-size);
+.pricing-table .price-tag .after {
+	color: #3b3b3b;
+	font-weight: 500;
 }
 
-.card__pricing-number {
-  font-size: var(--h2-font-size);
+.pricing-table .price-button {
+	display: block;
+	color: #fff;
+	margin-top: 2rem;
+	padding: .75rem;
+	border-radius: 2px;
+	text-align: center;
+	font-weight: 500;
+	transition: .3s;
+  text-decoration: none;
+  border-radius: 2rem;
 }
 
-.card__pricing-month {
-  display: block;
-  font-size: var(--tiny-font-size);
+
+
+.purple .pricing-label {
+	background: #cad2ff;
+	color: #627afe;
 }
 
-.card__pricing-number,
-.card__pricing-month {
-  color: var(--white-color);
+.purple .price-tag {
+	color: #627afe;
 }
 
-.card__pricing::after,
-.card__pricing::before {
-  content: '';
-  position: absolute;
+.purple .price-button {
+	background: #627afe;
 }
 
-.card__pricing::after {
-  width: 100%;
-  height: 14px;
-  background-color: var(--white-color);
-  left: 0;
-  bottom: 0;
-  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+.purple .price-button:hover {
+	background: #546dfe;
 }
 
-.card__pricing::before {
-  width: 14px;
-  height: 16px;
-  background-color: var(--first-color-alt);
-  top: 0;
-  left: -14px;
-  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+.turquoise .pricing-label {
+	background: #b9edee;
+	color: #44cdd2;
 }
 
-.card__list {
-  row-gap: .5rem;
-  margin-bottom: var(--mb-2);
+.turquoise .price-tag {
+	color: #44cdd2;
 }
 
-.card__list-item {
-  display: flex;
-  align-items: center;
+.turquoise .price-button {
+	background: #44cdd2;
 }
 
-.card__list-icon {
-  font-size: 1.5rem;
-  color: var(--first-color);
-  margin-right: var(--mb-0-5);
+.turquoise .price-button:hover {
+	background: #2dbcc4;
 }
 
-.card__button {
-  padding: 1.25rem;
-  border: none;
-  font-size: var(--normal-font-size);
-  border-radius: .5rem;
-  background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%);
-  color: var(--white-color);
-  cursor: pointer;
-  transition: .4s;
+.red .pricing-label {
+	background: #ffc4c4;
+	color: #ff5e5e;
 }
 
-.card__button:hover {
-  box-shadow: 0 12px 24px hsla(var(--hue-color), 97%, 54%, 0.2);
+.red .price-tag {
+	color: #ff5e5e;
 }
 
-/*==================== MEDIA QUERIES ====================*/
-/* For small devices */
-@media screen and (max-width: 320px) {
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
-
-  .card__content {
-    padding: 2rem 1.25rem;
-    border-radius: 1rem;
-  }
+.red .price-button {
+	background: #ff5e5e;
 }
 
-/* For medium devices */
-@media screen and (min-width: 568px) {
-  .card__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .card__content {
-    grid-template-rows: repeat(2, max-content);
-  }
-
-  .card__button {
-    align-self: flex-end;
-  }
+.red .price-button:hover {
+	background: #f23c3c;
 }
 
-/* For large devices */
-@media screen and (min-width: 968px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .card {
-    height: 100vh;
-    align-items: center;
-  }
-
-  .card__container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .card__header-circle {
-    margin-bottom: var(--mb-1-25);
-  }
-
-  .card__header-subtitle {
-    font-size: var(--small-font-size);
-  }
-}
+/* footer */
