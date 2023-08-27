@@ -11,6 +11,8 @@ body {
 
 .container {
     padding: 0;
+    padding-top: 20px;
+    justify-content: space-between !important;
 }
 
 nav {
@@ -67,6 +69,17 @@ nav {
     to {
         -webkit-mask-position: -50%;
     }
+}
+
+.phoenix-logo {
+    position: relative;
+    left: 20px;
+}
+
+.navbar-logo {
+    position: relative;
+    z-index: 1;
+    
 }
 
 .nav-item {
