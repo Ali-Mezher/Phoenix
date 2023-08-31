@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/background.css">
     <link rel="stylesheet" href="/shared.css">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
@@ -97,7 +98,7 @@
                     <p class="pb-2 edit-p-section-one">
                         We help you drive growth through our experienced & trustworthy consultants.
                     </p>
-                    <button onclick="location.href=''" type="button" class="btn btn-outline-light ph-2" id="edit-button-section-one">
+                    <button onclick="smoothScroll(document.getElementById('second-section'))" type="button" class="btn btn-outline-light ph-2 scrollButton" id="edit-button-section-one">
                         <span class="button-text">Our Services</span>
                         <img class="arrow-img" src="/images/arrow.png" alt="">
                     </button>
@@ -191,7 +192,7 @@
           <div class="container">
               <div class="row">
                 <div class="col-12">
-                  <div class="second-section-text text-white">
+                  <div class="second-section-text text-white" id="targeted-position">
                       <h3>text</h3>
                   </div>
               </div>
@@ -269,60 +270,36 @@
           </div>
       </section>
             <!-- Footer -->
-   <!-- <footer class="bg-dark text-white">
-      <div class="container ">
-        <div class="row py-4">
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
-            <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-            <ul class="list-inline mt-4">
-              <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted">For Women</a></li>
-              <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
-              <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
-              <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-            <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-              <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
-              <li class="mb-2"><a href="#" class="text-muted">Wishlist</a></li>
-              <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-            <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
-            <div class="p-1 rounded border">
-              <div class="input-group">
-                <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
-                <div class="input-group-append">
-                  <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
-                </div>
-              </div>
-            </div>
-          </div>
+   
+    
+    <footer>
+      <div style="margin-bottom: 0;">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(200, 22, 22,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(200, 22, 22,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(200, 22, 22,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#c81616" />
+        </g>
+        </svg>
         </div>
-      </div>
 
-      Copyrights
-      <div class="bg-light py-4">
-        <div class="container text-center">
-          <p class="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+        <div class="content flex">
+            <i class="fa-brands fa-instagram" style="color: #fff; font-size: 2.5rem;  cursor: pointer;"></i>
+            <ul class="itemList-footer text-white">
+              <li>Home</li>
+              <li>Team</li>
+              <li>Contact</li>
+            </ul>
+            <p class="text-white copyright">© 2023 Phoenix | All rights reserved.</p>
         </div>
-      </div>
-    </footer> -->
 
+        
+    </footer>
 
 
         
