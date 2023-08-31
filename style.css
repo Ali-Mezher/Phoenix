@@ -1,5 +1,6 @@
 body {
     overflow-y: scroll;
+    background-color: #111111;
 }
 
 header {
@@ -137,29 +138,66 @@ header {
 
 #first-section {
     height: 38.1rem;
-    background-color: #111111;
+    
 
 
 }
 
-/* second section */
 #second-section {
     
     margin-top: 2rem;
 }
 
-#second-section .container {
+/* sticky design */
+
+/* #second-section .container {
     display: flex;
     flex-direction: row;
 }
+
+.second-section-text {
+    position: sticky;
+    text-align: center;
+    top: 50%;
+    
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+} */
+
+/* regular design */
+
+
+.second-section-text {
+    
+    text-align: center;
+    
+    
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+
 .pricing-table {
 	background: #c81616;
 	box-shadow: 0px 1px 10px -6px rgba(0, 0, 0, .15);
 	padding: 2rem;
 	border-radius: 4px;
 	transition: .3s;
-  margin: 0.5rem;
-  border-radius: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
   
 }
 
@@ -210,20 +248,24 @@ header {
 	/* margin-top: 2rem; */
 	text-align: center;
 	font-weight: 500;
+    
 }
 
 .pricing-table .price-tag .symbol {
 	font-size: 24px;
+    
 }
 
 .pricing-table .price-tag .amount {
 	letter-spacing: -2px;
 	font-size: 64px;
+    
 }
 
 .pricing-table .price-tag .after {
 	color: #fff;
 	font-weight: 500;
+    display: block;
 }
 
 .pricing-table .price-button {
@@ -241,55 +283,18 @@ header {
 
 
 
-.purple .pricing-label {
+.pricing-label {
 	background: #cad2ff;
-	color: #627afe;
+
 }
 
-.purple .price-tag {
+.price-tag {
 	color: #fff;
+    
 }
 
-.purple .price-button {
-	background: #627afe;
-}
 
-.purple .price-button:hover {
-	background: #546dfe;
-}
 
-.turquoise .pricing-label {
-	background: #b9edee;
-	color: #44cdd2;
-}
 
-.turquoise .price-tag {
-	color: #fff;
-}
-
-.turquoise .price-button {
-	background: #44cdd2;
-}
-
-.turquoise .price-button:hover {
-	background: #2dbcc4;
-}
-
-.red .pricing-label {
-	background: #ffc4c4;
-	color: #ff5e5e;
-}
-
-.red .price-tag {
-	color: #fff;
-}
-
-.red .price-button {
-	background: #fff;
-}
-
-.red .price-button:hover {
-	background: #fff;
-}
 
 /* footer */
