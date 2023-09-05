@@ -84,7 +84,8 @@ nav {
 .navbar-logo {
     position: relative;
     z-index: 1;
-    left: 50%;
+    left: 30%;
+    
 }
 
 .nav-item {
