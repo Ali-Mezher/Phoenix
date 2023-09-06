@@ -72,3 +72,18 @@ window.smoothScroll = function(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const pricingTables = document.querySelectorAll('.pricing-table');
+
+    // Add event listeners to each pricing table
+    pricingTables.forEach(function (table) {
+        table.addEventListener('mouseenter', function () {
+            this.style.transform = 'scale(1.1)';
+        });
+
+        table.addEventListener('mouseleave', function () {
+            this.style.transform = 'scale(1)';
+        });
+    });
+});

@@ -148,6 +148,8 @@ header {
     padding-top: 2rem;
 }
 
+
+
 /* sticky design */
 
 /* #second-section .container {
@@ -198,11 +200,19 @@ header {
     border-radius: 1rem;
     position: relative;
     z-index: 1;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   
 }
 
 .pricing-table:hover {
 	box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, .15);
+    transform: scale(1.1);
 }
 
 .pricing-table .pricing-label {
