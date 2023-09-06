@@ -21,14 +21,14 @@ header {
 
 .edit-section-one {
     position: relative;
-    top: 8rem;
     margin: 0 auto;
-
+    top: 3.5rem;
+    
 }
 
 .edit-h1-setion-one {
     color: #fff !important;
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: bolder;
     margin-bottom: 1.5rem;
 }
