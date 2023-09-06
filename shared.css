@@ -34,7 +34,7 @@ nav {
     letter-spacing: 0.3rem;
     font-weight: bolder;
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 0.7rem;
     line-height: 2;
     color: #fff !important;
     padding: 0;
@@ -130,13 +130,16 @@ nav {
 .navUl {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
     
 }
 
 .phoenix-text {
+    font-family: 'Disco' !important;
     text-align: center;
     font-weight: 600;
-    color: #c81616;
+    color: #fff;
     margin-top: -20px;
 }
 
