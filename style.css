@@ -23,7 +23,7 @@ header {
     position: relative;
     margin: 0 auto;
     top: 6rem;
-    
+
 }
 
 .edit-h1-setion-one {
@@ -139,13 +139,13 @@ header {
 
 #first-section {
     height: 38.1rem;
-    
+
 
 
 }
 
 #second-section {
-    
+
     padding-top: 2rem;
 }
 
@@ -177,10 +177,10 @@ header {
 
 
 .second-section-text {
-    
+
     text-align: center;
-    
-    
+
+
 }
 
 .cardContainer {
@@ -188,15 +188,15 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 2rem;
-    
+
 }
 
 .pricing-table {
-	background: rgb(200, 22, 22);
-	box-shadow: 0px 1px 10px -6px rgba(0, 0, 0, .15);
-	padding: 2rem;
-	border-radius: 4px;
-	transition: .3s;
+    background: rgb(200, 22, 22);
+    box-shadow: 0px 1px 10px -6px rgba(0, 0, 0, .15);
+    padding: 2rem;
+    border-radius: 4px;
+    transition: .3s;
     margin: 0.5rem;
     border-radius: 1rem;
     position: relative;
@@ -208,100 +208,100 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
+
 }
 
 .pricing-table:hover {
-	box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, .15);
+    box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, .15);
     transform: scale(1.1);
 }
 
 .pricing-table .pricing-label {
-	border-radius: 2px;
-	padding: .25rem .5rem;
-	margin-bottom: 1rem;
-	display: inline-block;
-	font-size: 12px;
-	font-weight: 500;
+    border-radius: 2px;
+    padding: .25rem .5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .pricing-table h2 {
-	color: #fff;
-	font-size: 24px;
-	font-weight: 500;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
     text-align: center;
 }
 
 .pricing-table h5 {
-	color: #B3B3B3;
-	font-size: 14px;
-	font-weight: 400;
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .pricing-table .pricing-features {
-	margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .pricing-table .pricing-features .feature {
-	font-size: 14px;
-	margin: .5rem 0;
-	color: #B3B3B3;
+    font-size: 14px;
+    margin: .5rem 0;
+    color: #B3B3B3;
 }
 
 .pricing-table .pricing-features .feature span {
-	display: inline-block;
-	float: right;
-	color: #3b3b3b;
-	font-weight: 500;
+    display: inline-block;
+    float: right;
+    color: #3b3b3b;
+    font-weight: 500;
 }
 
-.pricing-table 	.price-tag {
-	/* margin-top: 2rem; */
-	text-align: center;
-	font-weight: 500;
-    
+.pricing-table .price-tag {
+    /* margin-top: 2rem; */
+    text-align: center;
+    font-weight: 500;
+
 }
 
 .pricing-table .price-tag .symbol {
-	font-size: 24px;
-    
+    font-size: 24px;
+
 }
 
 .pricing-table .price-tag .amount {
-	letter-spacing: -2px;
-	font-size: 64px;
-    
+    letter-spacing: -2px;
+    font-size: 64px;
+
 }
 
 .pricing-table .price-tag .after {
-	color: #fff;
-	font-weight: 500;
+    color: #fff;
+    font-weight: 500;
     display: block;
 }
 
 .pricing-table .price-button {
-	display: block;
-	color: #fff;
-	margin-top: 2rem;
-	padding: .75rem;
-	border-radius: 2px;
-	text-align: center;
-	font-weight: 500;
-	transition: .3s;
-  text-decoration: none;
-  border-radius: 2rem;
+    display: block;
+    color: #fff;
+    margin-top: 2rem;
+    padding: .75rem;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 500;
+    transition: .3s;
+    text-decoration: none;
+    border-radius: 2rem;
 }
 
 
 
 .pricing-label {
-	background: #cad2ff;
+    background: #cad2ff;
 
 }
 
 .price-tag {
-	color: #fff;
-    
+    color: #fff;
+
 }
 
 
@@ -315,80 +315,90 @@ footer {
 }
 
 .waves {
-    position:relative;
+    position: relative;
     width: 100%;
-    height:15vh;
-    margin-bottom:-7px; /*Fix for safari gap*/
-    min-height:100px;
-    max-height:150px;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
     z-index: 1;
-  }
-  
-  .content {
-    position:relative;
+}
+
+.content {
+    position: relative;
     height: 35vh;
-    text-align:center;
+    text-align: center;
     background-color: rgb(200, 22, 22);
     z-index: 1;
 
-  }
-  
-  /* Animation */
-  
-  .parallax > use {
-    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-  }
-  .parallax > use:nth-child(1) {
+}
+
+/* Animation */
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
     animation-delay: -2s;
     animation-duration: 7s;
-  }
-  .parallax > use:nth-child(2) {
+}
+
+.parallax>use:nth-child(2) {
     animation-delay: -3s;
     animation-duration: 10s;
-  }
-  .parallax > use:nth-child(3) {
+}
+
+.parallax>use:nth-child(3) {
     animation-delay: -4s;
     animation-duration: 13s;
-  }
-  .parallax > use:nth-child(4) {
+}
+
+.parallax>use:nth-child(4) {
     animation-delay: -5s;
     animation-duration: 20s;
-  }
-  @keyframes move-forever {
+}
+
+@keyframes move-forever {
     0% {
-     transform: translate3d(-90px,0,0);
+        transform: translate3d(-90px, 0, 0);
     }
-    100% { 
-      transform: translate3d(85px,0,0);
+
+    100% {
+        transform: translate3d(85px, 0, 0);
     }
-  }
-  /*Shrinking for mobile*/
-  @media (max-width: 768px) {
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
     .waves {
-      height:40px;
-      min-height:40px;
+        height: 40px;
+        min-height: 40px;
     }
+
     .content {
-      height:30vh;
+        height: 30vh;
     }
+
     h1 {
-      font-size:24px;
+        font-size: 24px;
     }
-  }
+}
 
 .fa-instagram {
     margin-top: -4rem !important;
 }
 
-.fa-instagram:hover{
+.fa-instagram:hover {
     color: #F08080 !important;
 }
 
 .footer-text {
-    
-    
+
+
     /* margin-top: 1.5rem; */
-    
+
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
@@ -405,7 +415,7 @@ footer {
     width: 165px;
     margin: -2rem auto 0 auto;
     padding: 0;
-    
+
 }
 
 .curved-arrows li {
@@ -416,4 +426,167 @@ footer {
 
 .copyright {
     margin-top: 1.5rem;
+}
+
+/* responsive first section */
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .edit-section-one {
+
+        top: 10rem;
+
+    }
+
+    .edit-h1-setion-one {
+        font-size: 2.5rem;
+    }
+
+    .edit-p-section-one {
+        font-size: 1.4rem;
+    }
+
+    #edit-button-section-one {
+        width: 12.5rem;
+        font-size: 1.3rem;
+    }
+
+}
+
+/* md */
+@media (max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .edit-section-one {
+
+        top: 11rem;
+
+    }
+
+    .edit-h1-setion-one {
+        font-size: 2.1rem;
+    }
+
+    .edit-p-section-one {
+        font-size: 1.3rem;
+    }
+
+    #edit-button-section-one {
+        width: 11.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .container {
+        max-width: 475px;
+    }
+
+    .edit-section-one {
+
+        top: 9rem;
+
+    }
+
+    .edit-h1-setion-one {
+        font-size: 2rem;
+    }
+
+    .edit-p-section-one {
+        font-size: 1.2rem;
+    }
+
+    #edit-button-section-one {
+        width: 10rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* Mobile large */
+@media (max-width: 425px) {
+    .container {
+        width: 375px;
+    }
+
+    .edit-section-one {
+
+        top: 9rem;
+
+    }
+
+    .edit-h1-setion-one {
+        font-size: 1.5rem;
+    }
+
+    .edit-p-section-one {
+        font-size: 1rem;
+    }
+
+    #edit-button-section-one {
+        width: 9rem;
+        font-size: 1rem;
+    }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+    .container {
+        width: 320px;
+    }
+
+    .edit-section-one {
+
+        top: 9rem;
+
+    }
+
+    .edit-h1-setion-one {
+        font-size: 1.4rem;
+    }
+
+    .edit-p-section-one {
+        font-size: 0.9rem;
+    }
+
+    #edit-button-section-one {
+        width: 8.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
 }
