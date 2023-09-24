@@ -444,12 +444,24 @@ footer {
         max-width: 1280px;
     }
 
+    .edit-section-one {
+
+        top: 8rem;
+
+    }
+
 }
 
 /* xl */
 @media (max-width: 1280px) {
     .container {
         max-width: 1024px;
+    }
+
+    .edit-section-one {
+
+        top: 8rem;
+
     }
 }
 
