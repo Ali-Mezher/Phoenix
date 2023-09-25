@@ -602,3 +602,85 @@ footer {
         width: 100%;
     }
 }
+
+/* responsive footer */
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    .footer-text {
+        padding-top: 5.5rem;
+    }
+
+    .copyright {
+        margin-top: 4rem;
+    }
+
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .footer-text {
+        padding-top: 4rem;
+    }
+
+    .copyright {
+        margin-top: 3.5rem;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .content {
+        height: 50vh;
+    }
+
+    .footer-text {
+        padding-top: 5rem;
+    }
+
+    .copyright {
+        margin-top: 4rem;
+    }
+
+}
+
+
+/* Mobile M */
+@media (max-width: 375px) {
+    .container {
+        width: 320px;
+    }
+
+    .copyright {
+        font-size: 0.9rem !important;
+    }
+
+
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+}
