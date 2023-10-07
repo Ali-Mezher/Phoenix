@@ -428,6 +428,8 @@ footer {
     margin-top: 1.5rem;
 }
 
+
+
 /* responsive first section */
 
 .container {
@@ -603,6 +605,173 @@ footer {
     }
 }
 
+/* responsive second section */
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    #second-section {
+        padding-top: 12rem;
+    }
+
+
+
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    #second-section {
+        padding-top: 12rem;
+    }
+
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+
+    .pricing-table {
+        margin-bottom: 2.5rem !important;
+    }
+
+    #second-section {
+        padding-top: 6.2rem;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 1024px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+
+
+/* md */
+@media (max-width: 768px) {
+    .container {
+        max-width: 640px;
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+
+    .pricing-table {
+        margin-bottom: 2.5rem !important;
+    }
+
+    #second-section {
+        padding-top: 6.5rem;
+    }
+
+    .second-section-text h1 {
+        font-size: 40px !important;
+    }
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .container {
+        max-width: 475px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    #second-section {
+        padding-top: 6.5rem;
+    }
+
+
+
+    .pricing-table h2 {
+
+        font-size: 22px;
+
+    }
+
+    .pricing-table .price-tag .symbol {
+        font-size: 22px;
+
+    }
+
+    .pricing-table .price-tag .amount {
+
+        font-size: 45px;
+
+    }
+
+    .pricing-table .price-tag .after {}
+
+
+
+}
+
+/* Mobile large */
+@media (max-width: 476px) {
+    .container {
+        width: 375px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+    .container {
+        width: 320px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
 /* responsive footer */
 
 .container {
@@ -617,6 +786,10 @@ footer {
 @media (max-width: 1536px) {
     .container {
         max-width: 1280px;
+    }
+
+    .content {
+        height: 45vh;
     }
 
     .footer-text {
@@ -634,6 +807,8 @@ footer {
     .container {
         max-width: 1024px;
     }
+
+
 
     .footer-text {
         padding-top: 4rem;
